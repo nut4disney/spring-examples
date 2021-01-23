@@ -1,2 +1,5 @@
 # spring-examples
-Various examples for Spring Boot applications.
+Various examples for Spring applications.
+
+## Folder: examples
+Examples for Spring Boot applications
