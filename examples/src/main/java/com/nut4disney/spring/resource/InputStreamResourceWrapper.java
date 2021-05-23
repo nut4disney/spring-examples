@@ -12,6 +12,9 @@ import org.springframework.lang.Nullable;
  * of an input stream source.
  * 
  * @author nut4disney
+ * @since 05/15/2021
+ * @see InputStreamResource
+ * @see FileSystemResource
  */
 public class InputStreamResourceWrapper extends InputStreamResource {
 	private long size;
