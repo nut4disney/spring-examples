@@ -1,5 +1,6 @@
 # extra stuff
 .DS_STORE
+.DS_Store
 logs
 /target/
 
