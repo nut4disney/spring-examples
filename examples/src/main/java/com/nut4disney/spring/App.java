@@ -24,7 +24,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class App {
 	private static Log log = LogFactory.getLog(App.class);
-
 	public static void main(String[] args) {
 		log.info("Starting the Hellow World application!");
 		SpringApplication.run(App.class, args);
