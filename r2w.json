@@ -1,0 +1,34 @@
+{
+	"version": "1.0",
+	"codebase": {
+		"releasableBranch": "master"
+	},
+	"siteName": "darrin.com",
+	"sonarProjectKey": "nut4disney_spring-examples_3e0acaf8-c241-47ed-977b-a66f050f933d",
+	"javaVersion": "OPENJDK17",
+	"build": {
+		"verbose": false,
+		"type": "maven",
+		"tooling": {
+			"maven": false,
+			"npm": false,
+			"gulp": false,
+			"composer": false
+		},
+		"performQualityAnalysis": true
+	},
+	"sendNotifications": true,
+	"notify": [
+		"cisdarrin@gmail.com"
+	],
+	"package": {
+		"packageSource": false,
+		"packageFileContentsList": [],
+		"packageLocation": ""
+	},
+	"shouldArchiveArtifacts": false,
+	"sonarQubeIgnore": [
+		"node_modules/**",
+		"**/vendor/**"
+	]
+}
